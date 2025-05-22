@@ -9,4 +9,4 @@ O Sprint-final é um projeto desenvolvido pela equipe Projeto-CCR que consiste e
 Para visualizar o projeto em funcionamento, acesse os links abaixo:
 
 - **Aplicação em produção**: [https://sprin-final.vercel.app/](https://sprin-final.vercel.app/)
-- **Vídeo demonstrativo**: [https://youtu.be/d-p25cK8UtAc](https://youtu.be/d-p25cK8UtAc)
+- **Vídeo demonstrativo**: [https://youtu.be/d-p25cK8UtAc](https://youtu.be/bSzLQwBR6Go)
