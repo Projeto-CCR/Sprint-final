@@ -1,4 +1,5 @@
 import Botao from "@/components/Botao/Botao";
+import StatusLinha from "@/components/StatusLinha/StatusLinha";
 
 export default function EstacaoEsmeraldaPage() {
     return (
@@ -10,7 +11,9 @@ export default function EstacaoEsmeraldaPage() {
           </div>
           <div>
             <h2 className="text-2xl font-semibold me-4">Esmeralda</h2>
-            <p className="text-lg me-4">Operação Normal</p>
+            <p className="text-lg me-4">
+            <StatusLinha linha={2} />
+            </p>
           </div>
           <div className="">
             <Botao />
