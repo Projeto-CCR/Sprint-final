@@ -157,7 +157,3 @@ O projeto é mantido pelos contribuidores:
 - JhowQT
 
 Para questões relacionadas ao projeto, abra uma issue no repositório GitHub.
-
-## Licença
-
-Este projeto não especifica uma licença explícita. Para mais informações sobre direitos de uso, entre em contato com os mantenedores do projeto.
