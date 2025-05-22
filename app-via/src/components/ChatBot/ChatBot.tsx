@@ -18,7 +18,7 @@ export default function Chatbot() {
         region: "au-syd",
         serviceInstanceID: "99766e14-630f-4de3-9e00-2c1e6104eefd",
         namespace: "chatbotViaMobilidade",
-        onLoad: async (instance: any) => {
+        onLoad: async (instance: { render: () => Promise<void> }) => {
           await instance.render();
         }
       };
