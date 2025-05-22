@@ -10,3 +10,12 @@ Para visualizar o projeto em funcionamento, acesse os links abaixo:
 
 - **Aplicação em produção**: [https://sprin-final.vercel.app/](https://sprin-final.vercel.app/)
 - **Vídeo demonstrativo**: [https://youtu.be/d-p25cK8UtAc](https://youtu.be/bSzLQwBR6Go)
+
+## Tecnologias Utilizadas
+
+O projeto foi desenvolvido utilizando um conjunto de tecnologias modernas para desenvolvimento web. A base do projeto é construída com Next.js na versão 15.3.2, um framework React que oferece renderização do lado do servidor, geração de sites estáticos e outras funcionalidades avançadas. O React na versão 19.0.0 é utilizado para a construção da interface do usuário, permitindo a criação de componentes reutilizáveis e uma experiência interativa.
+
+Para a estilização, o projeto utiliza TailwindCSS, um framework CSS utilitário que permite a criação de designs personalizados sem sair do HTML. O TypeScript é empregado para adicionar tipagem estática ao JavaScript, melhorando a qualidade do código e facilitando a manutenção.
+
+A aplicação também utiliza diversas ferramentas de desenvolvimento como ESLint para garantir a qualidade do código e PostCSS para processamento de CSS.
+
