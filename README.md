@@ -38,3 +38,13 @@ Além disso, na raiz do diretório `app-via`, encontramos arquivos de configura�
 - `postcss.config.mjs`: Configurações do PostCSS
 - `eslint.config.mjs`: Configurações do ESLint
 - `.gitignore`: Lista de arquivos e diretórios ignorados pelo Git
+
+## Requisitos do Sistema
+
+Para executar o projeto localmente, é necessário ter instalado em seu ambiente de desenvolvimento:
+
+- Node.js (versão 20.0.0 ou superior)
+- npm (gerenciador de pacotes do Node.js)
+- Git (para clonar o repositório)
+
+É recomendável utilizar um editor de código como Visual Studio Code, que oferece suporte nativo a TypeScript e React.
