@@ -19,3 +19,9 @@ Para a estilização, o projeto utiliza TailwindCSS, um framework CSS utilitári
 
 A aplicação também utiliza diversas ferramentas de desenvolvimento como ESLint para garantir a qualidade do código e PostCSS para processamento de CSS.
 
+## Estrutura do Projeto
+
+O projeto segue uma estrutura organizada que facilita a manutenção e o desenvolvimento. A estrutura principal do repositório é a seguinte:
+
+O diretório principal `app-via` contém todo o código fonte da aplicação, incluindo configurações, dependências e arquivos de código. Dentro deste diretório, encontramos a seguinte estrutura:
+
