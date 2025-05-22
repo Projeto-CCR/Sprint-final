@@ -1,5 +1,3 @@
-import Botao from "@/components/Botao/Botao";
-
 
 //Exemplo de criação de componente
 export default function Index(){
