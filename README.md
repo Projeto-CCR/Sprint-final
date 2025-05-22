@@ -25,3 +25,16 @@ O projeto segue uma estrutura organizada que facilita a manutenção e o desenvo
 
 O diretório principal `app-via` contém todo o código fonte da aplicação, incluindo configurações, dependências e arquivos de código. Dentro deste diretório, encontramos a seguinte estrutura:
 
+- `src`: Contém todo o código fonte da aplicação
+  - `app`: Contém os arquivos relacionados às páginas e rotas da aplicação Next.js
+  - `components`: Armazena os componentes React reutilizáveis
+  - `img`: Contém as imagens utilizadas no projeto
+
+Além disso, na raiz do diretório `app-via`, encontramos arquivos de configuração importantes:
+
+- `package.json`: Define as dependências e scripts do projeto
+- `tsconfig.json`: Configurações do TypeScript
+- `next.config.ts`: Configurações específicas do Next.js
+- `postcss.config.mjs`: Configurações do PostCSS
+- `eslint.config.mjs`: Configurações do ESLint
+- `.gitignore`: Lista de arquivos e diretórios ignorados pelo Git
