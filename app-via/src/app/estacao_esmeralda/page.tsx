@@ -45,7 +45,7 @@ export default function EstacaoEsmeraldaPage() {
           </div>
   
           <div className="coluna">
-            <div className="estacao bg-[#0FFFBB] text-white p-4 rounded-lg shadow-md mb-4">Jandira</div>
+            <div className="estacao bg-[#0FFFBB] text-white p-4 rounded-lg shadow-md mb-4">Autódromo</div>
             <div className="estacao bg-[#0FFFBB] text-white p-4 rounded-lg shadow-md mb-4">Primavera-Interlagos</div>
             <div className="estacao bg-[#0FFFBB] text-white p-4 rounded-lg shadow-md mb-4">Grajaú</div>
             <div className="estacao bg-[#0FFFBB] text-white p-4 rounded-lg shadow-md mb-4">Mendes-Vila Natal</div>
