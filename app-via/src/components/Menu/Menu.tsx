@@ -13,7 +13,6 @@ export default function Menu() {
             <li className="inline p-10"><Link href="/mapa">Mapa</Link></li>
             <li className="inline p-10"><Link href="/estacao">Estação</Link></li>
             <li className="inline p-10"><Link href="/consulta-tempo">Tempo Espera</Link></li>
-            <li className="inline p-10"><Link href="/chatbot">Chat</Link></li>
         </ul>
      </nav>
     );

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Cabecalho from "@/components/Cabecalho/Cabecalho";
 import Rodape from "@/components/Rodape/Rodape";
+import Chatbot from "@/components/ChatBot/ChatBot"
 
 export const metadata: Metadata = {
   title: "ViaMobilidade",
@@ -17,6 +18,7 @@ export default function RootLayout({children}: Readonly<{children: React.ReactNo
           {children}
         </div>
         <Rodape />
+        <Chatbot />
       </body>
     </html>
   );
