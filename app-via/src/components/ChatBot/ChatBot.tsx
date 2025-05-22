@@ -4,7 +4,14 @@ import { useEffect } from 'react';
 
 declare global {
   interface Window {
-    watsonAssistantChatOptions: any;
+    watsonAssistantChatOptions?: {
+      integrationID: string;
+      region: string;
+      serviceInstanceID: string;
+      namespace: string;
+      clientVersion?: string;
+      onLoad: (instance: { render: () => Promise<void> }) => void;
+    };
   }
 }
 
@@ -18,7 +25,7 @@ export default function Chatbot() {
         region: "au-syd",
         serviceInstanceID: "99766e14-630f-4de3-9e00-2c1e6104eefd",
         namespace: "chatbotViaMobilidade",
-        onLoad: async (instance: { render: () => Promise<void> }) => {
+        onLoad: async (instance) => {
           await instance.render();
         }
       };
@@ -28,7 +35,7 @@ export default function Chatbot() {
       const t = document.createElement('script');
       t.id = scriptId;
       t.src = "https://web-chat.global.assistant.watson.appdomain.cloud/versions/" +
-              (window.watsonAssistantChatOptions.clientVersion || 'latest') +
+              (window.watsonAssistantChatOptions?.clientVersion || 'latest') +
               "/WatsonAssistantChatEntry.js";
       document.head.appendChild(t);
     }
