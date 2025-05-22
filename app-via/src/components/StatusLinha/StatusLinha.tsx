@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react';
 
 interface StatusLinhaProps {
-  linha: number;  // 8 ou 9
+  linha: number;  // Deve ser 8 ou 9
 }
 
 export default function StatusLinha({ linha }: StatusLinhaProps) {
@@ -12,11 +12,11 @@ export default function StatusLinha({ linha }: StatusLinhaProps) {
   useEffect(() => {
     const buscarStatus = async () => {
       try {
-        const response = await fetch('/api/status-linha');
+        const response = await fetch('/api/status-linha'); // Proxy Next.js
         const data = await response.json();
 
-        // Como data é um array: ["Operação Normal", "Operação Normal"]
-        const index = linha === 8 ? 0 : 1;
+        // Como a API retorna: ["Operação Normal", "Operação Normal"]
+        const index = linha === 8 ? 0 : 1;  // Linha 8 → posição 0 | Linha 9 → posição 1
         setStatus(data[index] || 'Status indisponível');
 
       } catch (error) {
@@ -26,7 +26,7 @@ export default function StatusLinha({ linha }: StatusLinhaProps) {
     };
 
     buscarStatus();
-  }, [linha]);
+  }, [linha]);  // Sempre que a linha mudar, faz nova consulta
 
   const getStatusColor = () => {
     if (status === 'Operação Normal') {
